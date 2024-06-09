@@ -1,7 +1,7 @@
 import requests
 
 url = 'https://0a340037039cbf6880b03ab2009000c5.web-security-academy.net/filter?category=Accessories'
-characters = 'abcdefghijklmnopqrstuvwxyz1234567890'
+characters = 'abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()-_=+[]{}|;:,.<>?/'
 
 # Function to find the length of the administrator's password
 def get_length():
